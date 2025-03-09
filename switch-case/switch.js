@@ -11,4 +11,5 @@ switch(day)
         break;
         default:
             console.log('Undefined');
+
 }
