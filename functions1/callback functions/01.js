@@ -1,26 +1,12 @@
-//CAllback functions
-function selamVer()
+//Callback Fonksiyonlar
+function selamVer(isim)
 {
-    console.log("Selam Burak");
+    console.log(`Merhaba ${isim}`);
 }
-function calistir(cb)
+function ismiIsle(callback)
 {
-    cb(); //burada callback çalışıyor
+    let isim = "Burak";
+    callback(isim);
 }
-calistir(selamVer);
-function hesapla(a,b, callback){
-    let sonuc = a + b;
-    callback(sonuc);
-}
-function sonucuYazdir(data){
-    console.log("Sonuc:",data);
-}
-hesapla(4,5,sonucuYazdir); // 9
 
-
-function islemYap(sayi1,sayi2,callback)
-{
-    let carp = sayi1 * sayi2;
-    callback(carp);
-}
-islemYap(4,5,sonucuYazdir);
+ismiIsle(selamVer);
