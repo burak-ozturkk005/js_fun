@@ -9,5 +9,6 @@ const names = ["James","Burak","Alison"];
 //change the letters to uppercase
 const upperNames = names.map(name => name.toUpperCase());
 console.log(upperNames);
-
+let arr1 = [1,2,3,4,5];
+let arr2 = [3,4,6];
 
