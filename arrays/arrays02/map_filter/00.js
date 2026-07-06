@@ -24,5 +24,5 @@ console.log(fltrelenmis);
 const motorlar = [{model:"CBR600RR",cc:599},{model:"Mt-09",cc:890},{model:"YZF-R6",cc:599},{model:"Panigale V4",cc:1103}];
 let lowcc = motorlar.filter(motor => motor.cc < 600);
 console.log(lowcc);
-const maplanmıs = lowcc.map(alt => alt.model );
-console.log(maplanmıs);
+const maplanmis = lowcc.map(alt => alt.model );
+console.log(maplanmis);
