@@ -4,3 +4,7 @@ for(let i = 0; i< burakArray.length; i++)
 {
     console.log(burakArray[i], typeof burakArray[i]);
 }
+
+
+
+

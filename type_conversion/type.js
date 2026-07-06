@@ -7,3 +7,7 @@ console.log(typeof(inputYear));
 console.log(String(23),23);
 //type coercion
 console.log(`I am ` + 23 + ` years old`);
+let num1 = 0;
+let bool1 = Boolean(num1);
+console.log(bool1); //false
+
