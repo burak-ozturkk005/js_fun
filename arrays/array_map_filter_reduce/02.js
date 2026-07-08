@@ -1,16 +1,16 @@
-//AKILLI METOTLAR
+//METHODS
 let sayilar = [1,2,3,4,5,6,7];
 sayilar.forEach(function(sayi)
 {
     console.log(sayi);
 });
-//map() Her elemanı değiştirir yeni bir dizi oluşturur.
+//map() changes every element of array and creates new array.
 let kareler = sayilar.map(function(sayi){
     return sayi * sayi;
 });
 
 console.log(kareler);
-//filter() şartı sağlayan elemanları alır,diğerlerini atar. Yeni bir dizi döner
+//filter() takes the elements providing the components and returns a new array.
 let tekler = sayilar.filter(function(sayi){
     return sayi % 2 !== 0;
 });
