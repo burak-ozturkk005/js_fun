@@ -20,4 +20,10 @@ let remainder5 = Number(input());
 let remainder7 = Number(input());
 let your_age = (remainder1 * 70 + remainder5 * 21 + remainder7 * 15) %105;
 console.log(`Your age is ${your_age}; that's a good time to start programming!`);
-
+let count = Number(input());
+while(count >= 0)
+{
+    console.log(`${count} !`);
+    count--;
+}
+console.log("Completed, have a nice day!");
