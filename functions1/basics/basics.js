@@ -21,4 +21,3 @@ function sayHelo(name = "Ziyaretci"){
 }
 sayHelo();
 sayHelo("Burak");
-

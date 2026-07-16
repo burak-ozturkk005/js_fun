@@ -1,4 +1,4 @@
-const burakArray = ['Burak','Ozturk',2025-1996,'programmer'];
+const burakArray = ['Burak','Ozturk',2025-1945,'programmer'];
 
 for(let i = 0; i< burakArray.length; i++)
 {

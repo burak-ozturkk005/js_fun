@@ -29,3 +29,10 @@ let hitaplar = isimler.map(isim => {
     }
 });
 console.log(hitaplar);
+function ikiKati(sayi)
+{
+    return sayi * 2;
+}
+console.log(ikiKati(3));
+const ikiKati2 = sayi => sayi * 2;
+console.log(ikiKati2(7));
