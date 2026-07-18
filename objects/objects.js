@@ -1,3 +1,10 @@
+//OBJECTS
+/*nesneAdi.ozellikAdi arac.model arac.yil vb.
+Ya da
+nesneAdi["ozellikAdi"] car["marka"]
+Nesne isLevlerine Erisim
+nesneAdi.islevAdi(); car.start();
+ */
 const arac = {marka:"Yamaha",
 model:"R6",
 yil:2017};
